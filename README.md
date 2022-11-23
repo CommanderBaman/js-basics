@@ -1,2 +1,2 @@
-# js-basics
+# JavaScript Basics
 Contains basics of JavaScript 
