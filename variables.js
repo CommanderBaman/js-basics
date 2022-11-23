@@ -4,7 +4,7 @@
  * Primitive data types - string, bigint, etc.
  *
  * Three types of variable declarations
- * Errors are uncommented. Comment these lines to proceed further. Such comments start with ERROR
+ * Errors are uncommented. Uncomment these lines to check the errors. Such comments start with ERROR
  */
 
 /**
@@ -42,6 +42,10 @@ z = 5;
  * What is the type of variable and how to check it
  * uncomment the lines you want to check
  */
+
+/**
+ * Primitive Data Types
+ */
 let x; // undefined
 // x = '1' // string
 // x = 1 // number
@@ -49,6 +53,16 @@ let x; // undefined
 
 // check type of variable via the `typeof` function
 console.log(typeof x);
+
+
+/**
+ * Arrays
+ * ordered collection of variables
+ */
+const nameArray = ['John', 'Alice', 'Bob'] // declare with const but can still change the constituents
+
+console.log(nameArray)
+console.log(typeof nameArray) // object
 
 /**
  * CONCLUSION
